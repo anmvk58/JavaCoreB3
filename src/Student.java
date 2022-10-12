@@ -4,7 +4,12 @@ public class Student {
     float salary;
     String title;
     boolean isStudy;
+
+
     //phương thức
+    public Student(String title) {
+        this.title = title;
+    }
 
     @Override
     public String toString() {
